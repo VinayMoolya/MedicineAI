@@ -21,7 +21,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   } = require("@google/generative-ai");
 
   const MODEL_NAME = "gemini-1.0-pro";
-  const API_KEY = "AIzaSyDOUZKMwVhGj4vQaT_ckOmaNSjVV0BTiHs";
+  // const API_KEY = "AIzaSyDOUZKMwVhGj4vQaT_ckOmaNSjVV0BTiHs";
 
   function LLMDiagnosisEnds(message) {
     return message.startsWith("Disease :");

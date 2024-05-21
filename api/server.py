@@ -18,9 +18,9 @@ import pickle
 # Initializing flask app
 app = Flask(__name__)
 CORS(app)
-URI = "neo4j+ssc://1d81e13b.databases.neo4j.io:7687"
-AUTH = ("neo4j", "A4hyvKZoNWNZT4Sr75StTsA-s0W8ZAMHVEQkoHEWjWA")
-OPENAI_API_KEY = "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"
+# URI = "neo4j+ssc://1d81e13b.databases.neo4j.io:7687"
+# AUTH = ("neo4j", "A4hyvKZoNWNZT4Sr75StTsA-s0W8ZAMHVEQkoHEWjWA")
+# OPENAI_API_KEY = "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"
 
 
 def calculate_cosine_similarity(sentence1, sentence2):
